@@ -1,17 +1,17 @@
 <html>
-    <script src="functions.js">
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="functions.js"></script>
     <head>
         <title>Resume - Anthony Stark</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body onload="loadData()">
+    <body id="body" onclick="whitenBackgroundColor()">
         <div class="titleBlock">
             <div style="float:right;">
-                <div id='address1'></div>
-                <div id='address2'></div>    
+                <div id="address1" onclick="debugAddress1()">39 Cliffside Drive</div>
+                <div>Malibu, CA 56677</div>    
             </div> 
-            <h1 id="name">Anthony Stark</h1>
+            <h1 id="name" onclick="alertName()">Anthony Stark</h1>
         </div>
         <div class="pageIndent">
             <h2>Summary</h2>
@@ -43,8 +43,8 @@
                     <li>Head of Advanced Research Group</li>
                 </ul>
             </div>
-            <h2>Education</h2>
-            <div class="indentedContent">
+            <h2 onclick="toggleEducationCollapsed()">Education</h2>
+            <div id="educationContent" class="indentedContent">
                 <div class="timeline">1984-1987</div>
                 <h3>BSc. Engineering</h3>
                 <div>Massachusetts Institute of Technology</div>
@@ -54,16 +54,15 @@
                 <div>Phillips Academy</div>
                 <div>Andover, MA</div>
             </div>
-            <h2>Achievements, Skills and Proficiencies</h2>
+            <h2>Achievements and Proficiencies</h2>
             <div class="indentedContent">
                 <h3>Languages</h3>
-                <ul id='languageList'>
+                <ul>
+                    <li>English</li>
+                    <li>Spanish</li>
+                    <li>Italian</li>
+                    <li>Dari</li>
                 </ul>
-
-                <h3>Skills</h3>
-                <ul id='skillList'>
-                </ul>
-
                 <h3>Notable Achievements</h3>
                 <ul>
                     <li>Created J.A.R.V.I.S, an advanced artificial intelligence</li>
