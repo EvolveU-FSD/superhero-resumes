@@ -1,7 +1,12 @@
 const name = "Tony Stark"
 const languages = ['English', 'French', 'Spanish', 'Italian', 'Dari']
 const skills = ['Python', 'Javascript', 'CSS', 'Robotics', 'Rocket Science']
-const address = {streetAddress: '39 Cliffside Drive', city: 'Malibu', state: 'CA', code: '56677'}
+const address = {
+    streetAddress: '39 Cliffside Drive', 
+    city: 'Malibu', 
+    state: 'CA', 
+    code: '56677'
+}
 
 function loadData(){
     loadName()
