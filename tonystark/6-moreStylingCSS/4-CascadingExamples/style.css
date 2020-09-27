@@ -1,0 +1,21 @@
+div {
+    font-size: 18;
+    color: pink
+}
+
+.class {
+    color: red
+}
+
+#id {
+    color: darkred
+}
+
+h1 {
+    font-size: 18;
+    margin: 0
+}
+
+h1.class {
+    color: purple
+}
