@@ -1,0 +1,77 @@
+body {
+    background-color: beige;
+}
+
+.row-container{
+    padding: 15;
+    margin: 5;
+    background-image: linear-gradient(to bottom right, turquoise,darkslategray);
+    height: 150;
+}
+
+.column-container{
+    padding: 15;
+    margin: 5;
+    background-image: linear-gradient(to bottom right, yellow, orangered);
+    width: 300;
+    height: 500;
+}
+
+.brick1{
+    height: 70;
+    width: 150;
+    margin: 5;
+    background-color: darkslategray;
+}
+
+.brick2{
+    height: 80;
+    width: 65;
+    margin: 5;
+    background-color: darkred;
+}
+
+#row-evenly-spaced{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#row-at-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#row-space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#column-at-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#column-with-wrap
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+#column-with-no-wrap
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+    flex-wrap: nowrap;
+}
