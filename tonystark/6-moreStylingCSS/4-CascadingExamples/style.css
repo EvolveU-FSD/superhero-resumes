@@ -3,7 +3,7 @@ div {
     color: pink
 }
 
-.class {
+.highlight {
     color: red
 }
 
@@ -16,6 +16,6 @@ h1 {
     margin: 0
 }
 
-h1.class {
+h1.highlight {
     color: purple
 }
