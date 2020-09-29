@@ -5,14 +5,6 @@ input{
     font-size: 20;
 }
 
-.textinput{
-
-}
-
-.textoutput{
-    
-}
-
 .button{
     width: 110;
     height: 40;
@@ -20,4 +12,8 @@ input{
     background-color: lightpink;
     margin: 15;
     border-radius: 10px;
+}
+
+.button2 {
+
 }
