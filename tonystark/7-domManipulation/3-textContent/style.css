@@ -1,0 +1,25 @@
+div {
+    font-size: 18;
+}
+input{
+    font-size: 20;
+}
+
+.button{
+    width: 110;
+    height: 40;
+    padding: 10;
+    background-color: lightpink;
+    margin: 15;
+    border-radius: 10px;
+}
+
+.textinput{
+    padding: 20;
+    width: 250;
+}
+
+.sayHelloHere
+{
+    margin: 15;
+}

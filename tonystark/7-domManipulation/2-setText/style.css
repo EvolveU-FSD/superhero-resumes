@@ -1,0 +1,15 @@
+.button{
+    width: 110;
+    height: 40;
+    padding: 10;
+    background-color: lightpink;
+    font-size: 24;
+    margin: 15;
+    border-radius: 10px;
+}
+
+.textinput{
+    padding: 20;
+    font-size: 18;
+    width: 250;
+}
