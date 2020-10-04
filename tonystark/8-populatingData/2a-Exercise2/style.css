@@ -1,0 +1,34 @@
+div{
+    font-size: 22;
+}
+
+.produceContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    width: 500px;
+    justify-content: space-between;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 25px;
+}
+
+#produceName {
+    margin-bottom: 5px;
+    color: darkorange;
+    font-size: 36;
+}
+
+#produceDescripproduceDescriptiontion{
+    font-size: 24;
+}
+
+#producePrice{
+    text-align: right;
+}
+
+#producePicture {
+    height: 100px;
+}

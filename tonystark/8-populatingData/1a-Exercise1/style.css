@@ -1,0 +1,22 @@
+div{
+    padding: 10;
+    font-size: 24;
+    margin: 15;
+    border-radius: 10px;
+}
+
+.fullCard{
+    width: 300;
+    padding: 25;
+    color: white;
+    font: 24;
+    background-color: green;
+}
+
+.nameBox{
+    padding: 20;
+    height: 50;
+    font-size: 22;
+    background: white;
+    color: black;
+}
