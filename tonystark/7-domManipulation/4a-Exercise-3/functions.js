@@ -1,7 +1,3 @@
-function changeThroughStyle(){
-
-}
-
-function changeThroughClass(){
+function recordAddress(){
 
 }
