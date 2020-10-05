@@ -1,0 +1,35 @@
+div{
+    font-size: 22;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    width: 500px;
+    justify-content: space-between;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 25px;
+}
+
+.header{
+    color: darkred;
+}
+
+.subHeader{
+    color: darkgreen;
+    margin-top: 35px;
+}
+
+.listItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.email{
+    color: blue
+}
