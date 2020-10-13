@@ -22,19 +22,19 @@ const produce = {
 }
 
 function OnloadFunction(){
-    const canadianProduceList = document.getElementById('canadianProduceList')
+    const canadianProduceListDiv = document.getElementById('canadianProduceList')
     produce.canadianProduce.forEach( produceItem => {
         console.log(produceItem)
         const newProduceDiv = document.createElement('div')
         newProduceDiv.classList.add('listItem')
-        canadianProduceList.appendChild(newProduceDiv)
+        canadianProduceListDiv.appendChild(newProduceDiv)
 
         const produceName = document.createElement('div')
         produceName.textContent = produceItem.name
         newProduceDiv.appendChild(produceName)
 
         const producePrice = document.createElement('div')
-        producePrice.textContent = `$ ${produceItem.price}`
+        producePrice.textContent = "$ "+ produceItem.price
         newProduceDiv.appendChild(producePrice)
     })
 
@@ -50,7 +50,7 @@ function OnloadFunction(){
         newProduceDiv.appendChild(produceName)
 
         const producePrice = document.createElement('div')
-        producePrice.textContent = `$ ${produceItem.price}`
+        producePrice.textContent = "$ " + produceItem.price
         newProduceDiv.appendChild(producePrice)
     })
 }
