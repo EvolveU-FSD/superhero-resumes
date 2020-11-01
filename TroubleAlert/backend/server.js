@@ -56,7 +56,7 @@ app.put('/alert', function(req, res){
 
 app.delete('/alert', function(req, res){
     const alertNumber = req.query.alertNumber
-f    const alert = someAlerts.find(alert => alert.id == alertNumber)
+    const alert = someAlerts.find(alert => alert.id == alertNumber)
     alert.state = 'Deleted'
     res.send(alert)
 })
